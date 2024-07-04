@@ -1,21 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
-<%
-	String chk = null;
-	String cookId = "";
-	Cookie[] cookies = request.getCookies();
-	if(cookies != null){
-		for(Cookie cookie:cookies){
-			if(cookie.getName().equals("remember")){
-				chk = "checked";
-				cookId = cookie.getValue();
-				System.out.println("cookId : "+cookId);
-						
-			}
-		}
-	}
-%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,11 +10,11 @@
 	<h2>로그인</h2>
 	<form action="doForm2.jsp" method="post">
 		<label>아이디</label>
-		<input type="text" name="id" value=<%=cookId %>><br>
+		<input type="text" name="id"><br>
 		<label>패스워드</label>
 		<input type="password" name="pw"><br>
 		<input type="checkbox" name="remember"
-		 id="remember" value="remember" <%= chk %>>
+		 id="remember" value="remember" >
 		<label for="remember">아이디 저장</label>
 		<br>
 		<input type="submit" value="로그인">

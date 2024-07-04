@@ -8,8 +8,3 @@
 </head>
 <body>
 	<h2>index2페이지</h2>
-	<form action="http://Localhost:8181/wo702/Id" method="post">
-	<input type="submit" value="전송>
-	</form>
-</body>
-</html>
