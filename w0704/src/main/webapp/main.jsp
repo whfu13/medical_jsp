@@ -9,9 +9,8 @@
 <body>
 	<h2>메인페이지</h2>
 	<ul>
-		<li><a href="Login.do">로그인</a></li>
+		<li><a href="login.do">로그인</a></li>
 		<li><a href="member.do">회원정보</a></li>
-		<li><a href="blog.do">블로그</a></li>
 		<li><a href="board.do">게시판</a></li>
 		<li><a href="company.do">회사소개</a></li>
 		<li><a href="community.do">커뮤니티</a></li>

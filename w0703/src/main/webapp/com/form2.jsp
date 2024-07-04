@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>안녕</title>
 </head>
 <body>
 	<h2>성적처리 프로그램</h2>

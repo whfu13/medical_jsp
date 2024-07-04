@@ -7,15 +7,21 @@
 		<title>forward</title>
 	</head>
 	<body>
-	<%
-		RequestDispatcher dispatcher = request.getRequestDispatcher("forward2.jsp");
-		dispatcher.forward(request, response);
-	%>
-	<%-- 
-		<%
-			response.sendRedirect("forward2.jsp");
-		%>
-	--%>
-		
+	<h2>로그인</h2>
+	  <form action="doForward.jsp" method="post">
+	    <label>아이디</label>
+	    <input type="text" name="id"><br>
+	    <label>패스워드</label>
+	    <input type="password" name="pw"><br>
+	    <input type="checkbox" name="remember" 
+	    id="remember" value="remember">
+	    <label for="remember" >아이디 저장</label>
+	    <br>
+	    <input type="submit" value="로그인">
+	  
+	  </form>
+	  
+	
+	
 	</body>
 </html>

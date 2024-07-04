@@ -19,7 +19,7 @@
 		</tr>
 		<tr>
 			<td>패스워드</td>
-			<td>${pw}</td>
+			<td>${param.pw}</td>
 		</tr>
 		<tr>
 			<td>remember</td>

@@ -21,7 +21,6 @@
 			<li><a href="cp">게시판리스트</a></li>
 			<li><a href="form.jsp">글쓰기</a></li>
 			<li><a href="logout.jsp">로그아웃</a></li>
-			<li>로그아웃</li>
 		</ul>
 		</c:if>
 		<%-- 

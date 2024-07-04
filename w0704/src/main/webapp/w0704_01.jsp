@@ -28,8 +28,8 @@
 		while(rs.next()){
 			int bno = rs.getInt("bno");
 			String id = rs.getString("id");
-			String btitle = rs.getNString("btitle");
-			String bcontent = rs.getNString("bcontent");
+			String btitle = rs.getString("btitle");
+			String bcontent = rs.getString("bcontent");
 			
 			out.println(bno+","+id+","+btitle+","+bcontent+"<br>");
 			
